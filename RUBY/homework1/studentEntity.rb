@@ -6,15 +6,15 @@ class Student
     @@students = Set.new
 
     def initialize(name, surname, date_of_birth)
+        if date_of_birth >= Date.today
+            raise ArgumentError, 'Invalid date of birth for student'
+        end
         @name = name
         @surname = surname
         @date_of_birth = date_of_birth
     end
 
     def self.add_student(student)
-        if student.date_of_birth >= Date.today
-            raise ArgumentError, 'Invalid date of birth for student'
-        end
         @@students.add(student)
     end
     

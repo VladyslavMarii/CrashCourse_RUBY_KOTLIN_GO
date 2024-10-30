@@ -1,4 +1,4 @@
-require "./student"
+require "./studentEntity"
 
 if __FILE__ == $0  
   begin
