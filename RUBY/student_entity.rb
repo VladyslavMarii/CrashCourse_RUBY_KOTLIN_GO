@@ -18,14 +18,14 @@ class Student
         @@students.add(student)
     end
     
-    def remove_student()
-        @@students.delete(self)
+    def self.remove_student(student)
+        @@students.delete(student)
     end
 
-    def calculate_age()
-        age = Date.today.year - @date_of_birth.year
-        age - (Date.today.mon > @date_of_birth.mon || Date.today.mon == @date_of_birth.mon && Date.today.day > @date_of_birth.day ? 1 : 0)
-            
+    def calculate_age
+        current_date = Date.today
+
+        current_date.year - @date_of_birth.year - ((current_date.mon > @date_of_birth.mon) || (current_date.mon == @date_of_birth.mon && current_date.mday >= @date_of_birth.mday) ? 0 : 1)
     end
 
     def self.get_students_by_age(age)
