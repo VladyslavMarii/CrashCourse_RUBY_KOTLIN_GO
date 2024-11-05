@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="StudentTest" filepath="./test/student_unit_test.rb" skipped="0" failures="0" errors="0" tests="10" assertions="16" time="0.0005923999124206603">
-    <testcase name="test_duplicate_student" lineno="39" classname="StudentTest" assertions="1" time="0.00013319996651262045" file="./test/student_unit_test.rb">
+  <testsuite name="StudentTest" filepath="./test/student_unit_test.rb" skipped="0" failures="0" errors="0" tests="10" assertions="16" time="0.001033400185406208">
+    <testcase name="test_remove_student" lineno="65" classname="StudentTest" assertions="2" time="0.00030209997203201056" file="./test/student_unit_test.rb">
     </testcase>
-    <testcase name="test_initialize" lineno="33" classname="StudentTest" assertions="3" time="4.299997817724943e-05" file="./test/student_unit_test.rb">
+    <testcase name="test_invalid_date_of_birth" lineno="50" classname="StudentTest" assertions="2" time="0.00019540009088814259" file="./test/student_unit_test.rb">
     </testcase>
-    <testcase name="test_get_students_by_age" lineno="86" classname="StudentTest" assertions="2" time="5.6100019719451666e-05" file="./test/student_unit_test.rb">
+    <testcase name="test_initialize" lineno="32" classname="StudentTest" assertions="3" time="7.639999967068434e-05" file="./test/student_unit_test.rb">
     </testcase>
-    <testcase name="test_calculate_age_for_student3" lineno="81" classname="StudentTest" assertions="1" time="6.78999931551516e-05" file="./test/student_unit_test.rb">
+    <testcase name="test_get_students_by_age" lineno="85" classname="StudentTest" assertions="2" time="0.00010280008427798748" file="./test/student_unit_test.rb">
     </testcase>
-    <testcase name="test_remove_student" lineno="66" classname="StudentTest" assertions="2" time="4.9799971748143435e-05" file="./test/student_unit_test.rb">
+    <testcase name="test_get_students_by_name" lineno="92" classname="StudentTest" assertions="1" time="4.850002005696297e-05" file="./test/student_unit_test.rb">
     </testcase>
-    <testcase name="test_invalid_date_of_birth" lineno="51" classname="StudentTest" assertions="2" time="9.099999442696571e-05" file="./test/student_unit_test.rb">
+    <testcase name="test_calculate_age_for_student1" lineno="70" classname="StudentTest" assertions="1" time="5.380006041377783e-05" file="./test/student_unit_test.rb">
     </testcase>
-    <testcase name="test_calculate_age_for_student2" lineno="76" classname="StudentTest" assertions="1" time="5.2799994591623545e-05" file="./test/student_unit_test.rb">
+    <testcase name="test_calculate_age_for_student2" lineno="75" classname="StudentTest" assertions="1" time="4.469999112188816e-05" file="./test/student_unit_test.rb">
     </testcase>
-    <testcase name="test_get_students_by_name" lineno="93" classname="StudentTest" assertions="1" time="2.840004162862897e-05" file="./test/student_unit_test.rb">
+    <testcase name="test_duplicate_student" lineno="38" classname="StudentTest" assertions="1" time="6.140000186860561e-05" file="./test/student_unit_test.rb">
     </testcase>
-    <testcase name="test_add_student" lineno="60" classname="StudentTest" assertions="2" time="3.709999145939946e-05" file="./test/student_unit_test.rb">
+    <testcase name="test_calculate_age_for_student3" lineno="80" classname="StudentTest" assertions="1" time="7.229996845126152e-05" file="./test/student_unit_test.rb">
     </testcase>
-    <testcase name="test_calculate_age_for_student1" lineno="71" classname="StudentTest" assertions="1" time="3.309996100142598e-05" file="./test/student_unit_test.rb">
+    <testcase name="test_add_student" lineno="59" classname="StudentTest" assertions="2" time="7.599999662488699e-05" file="./test/student_unit_test.rb">
     </testcase>
   </testsuite>
 </testsuites>

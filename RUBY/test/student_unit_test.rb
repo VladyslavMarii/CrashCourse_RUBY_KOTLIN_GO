@@ -4,7 +4,6 @@ require 'date'
 require 'set'
 require_relative "../student_entity"
 
-
 Minitest::Reporters.use! [
 Minitest::Reporters::HtmlReporter.new(
 reports_dir: '/test/reports',
