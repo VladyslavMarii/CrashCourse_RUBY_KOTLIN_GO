@@ -53,7 +53,7 @@ if __FILE__ == $0
 
     # Demonstrating remove_student
     puts "Removing Jane Smith from the list of students..."
-    student2.remove_student
+    Student.remove_student(student2)
     puts "Jane Smith removed."
 
     # Verifying that Jane Smith has been removed

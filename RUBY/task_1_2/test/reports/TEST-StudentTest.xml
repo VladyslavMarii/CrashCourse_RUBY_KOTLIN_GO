@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="StudentTest" filepath="./test/student_unit_test.rb" skipped="0" failures="0" errors="0" tests="10" assertions="16" time="0.0005536001408472657">
+    <testcase name="test_get_students_by_age" lineno="85" classname="StudentTest" assertions="2" time="0.00022899999748915434" file="./test/student_unit_test.rb">
+    </testcase>
+    <testcase name="test_duplicate_student" lineno="38" classname="StudentTest" assertions="1" time="4.179996903985739e-05" file="./test/student_unit_test.rb">
+    </testcase>
+    <testcase name="test_add_student" lineno="59" classname="StudentTest" assertions="2" time="4.170008469372988e-05" file="./test/student_unit_test.rb">
+    </testcase>
+    <testcase name="test_get_students_by_name" lineno="92" classname="StudentTest" assertions="1" time="2.8099981136620045e-05" file="./test/student_unit_test.rb">
+    </testcase>
+    <testcase name="test_calculate_age_for_student2" lineno="75" classname="StudentTest" assertions="1" time="2.8399983420968056e-05" file="./test/student_unit_test.rb">
+    </testcase>
+    <testcase name="test_calculate_age_for_student1" lineno="70" classname="StudentTest" assertions="1" time="2.8600101359188557e-05" file="./test/student_unit_test.rb">
+    </testcase>
+    <testcase name="test_calculate_age_for_student3" lineno="80" classname="StudentTest" assertions="1" time="3.430002834647894e-05" file="./test/student_unit_test.rb">
+    </testcase>
+    <testcase name="test_remove_student" lineno="65" classname="StudentTest" assertions="2" time="3.5400036722421646e-05" file="./test/student_unit_test.rb">
+    </testcase>
+    <testcase name="test_initialize" lineno="32" classname="StudentTest" assertions="3" time="3.0199997127056122e-05" file="./test/student_unit_test.rb">
+    </testcase>
+    <testcase name="test_invalid_date_of_birth" lineno="50" classname="StudentTest" assertions="2" time="5.609996151179075e-05" file="./test/student_unit_test.rb">
+    </testcase>
+  </testsuite>
+</testsuites>
