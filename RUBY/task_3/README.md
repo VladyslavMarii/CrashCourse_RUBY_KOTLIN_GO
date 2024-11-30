@@ -1,4 +1,4 @@
-# Sauce Demo Testing Project
+# Demo Testing Project
 
 Automated tests for https://www.saucedemo.com testing login functionality and shopping cart operations.
 
